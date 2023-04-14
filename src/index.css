@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  background: rgb(25, 20, 49);
+}
+
+ul>li {
+  padding: 10px;
+  margin: 10px;
+}
+
+ul>li>a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  margin: 10px;
+}
+
+h1{
+  margin: 20px 0;
+}
+
+h2{
+  margin: 15px 0;
+}
+
+h3, h4{
+  margin: 10px 0;
+}
+
+#notHome{
+  margin: 0 0 15px 0;
+  background: rgb(122, 50, 2);
+  padding: 5px;
+  color: white;
+}
+
+.active {
+  color: red;
+}
